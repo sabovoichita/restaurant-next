@@ -6,10 +6,32 @@ import { useState } from "react";
 const Featured = () => {
   const [index, setIndex] = useState(0);
   const images = [
-    "/images/menu/1.png",
-    "/images/menu/2.png",
-    "/images/menu/3.png",
-    "/images/menu/4.png",
+    "/images/menu/burger.jpg",
+    "/images/menu/ciorba.jpg",
+    "/images/menu/ciuletavita.jpg",
+    "/images/menu/cozonac.jpg",
+    "/images/menu/crochete.jpg",
+    "/images/menu/peste.jpg",
+    "/images/menu/pizza.jpg",
+    "/images/menu/pui.jpg",
+    "/images/menu/rabo.jpg",
+    "/images/menu/scoici.jpg",
+    "/images/menu/toast.jpg",
+    "/images/menu/aperitiv.jpg",
+    "/images/menu/baby.jpg",
+    "/images/menu/biscuitcake.jpg",
+    "/images/menu/burger1.jpg",
+    "/images/menu/ciorba1.jpg",
+    "/images/menu/clafoitois.jpg",
+    "/images/menu/fasole.jpg",
+    "/images/menu/gambas.jpg",
+    "/images/menu/paella.jpg",
+    "/images/menu/patatas.jpg",
+    "/images/menu/salatacapra.jpg",
+    "/images/menu/saratele.jpg",
+    "/images/menu/sepia.jpg",
+    "/images/menu/tunasalad.jpg",
+    "/images/menu/tavalita.jpg",
   ];
 
   const handleArrow = (direction) => {
