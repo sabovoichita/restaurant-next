@@ -46,9 +46,7 @@
   .container {
     height: auto;
     text-align: center;
-  }
-  .item:first-child {
-    display: none;
+    display: block;
   }
 
   .item {
@@ -61,5 +59,8 @@
 
   .text {
     font-size: 20px;
+  }
+  .imgContainer img {
+    display: none;
   }
 }

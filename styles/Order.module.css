@@ -18,6 +18,41 @@
   display: flex;
   justify-content: space-between;
 }
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inProgress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: inProgress 1s ease infinite alternate;
+}
+@keyframes inProgress {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.undone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.3;
+}
+.undone .checkedIcon,
+.inProgress .checkedIcon {
+  display: none;
+}
 
 .right {
   flex: 1;
@@ -41,7 +76,7 @@
 .button {
   background-color: white;
   height: 30px;
-  color: #5e503f;
+  color: #b7903c;
   font-weight: bold;
   margin-top: 20px;
   cursor: not-allowed;
