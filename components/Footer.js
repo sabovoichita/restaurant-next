@@ -1,17 +1,9 @@
+import Image from "next/image";
 import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.item}>
-        <h2 className={styles.motto}>MAP here</h2>
-      </div>
-      {/* <Image
-        src="/images/footer/bg.png"
-        objectFit="cover"
-        layout="fill"
-        alt="background"
-      /> */}
       <div className={styles.item}>
         <div className={styles.card}>
           <h2 className={styles.motto}>OH YES, WE HAVE THE BEST FOOD</h2>
@@ -35,6 +27,16 @@ const Footer = () => {
             SATURDAY - SUNDAY
             <br /> 12:00 – 24:00
           </p>
+        </div>
+        <div className={styles.item}>
+          <div className={styles.imgContainer}>
+            <Image
+              src="/images/truscai-logo.png"
+              objectFit="cover"
+              layout="fill"
+              alt="background"
+            />
+          </div>
         </div>
       </div>
     </div>

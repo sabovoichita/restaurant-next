@@ -1,5 +1,5 @@
 .container {
-  min-height: 400px;
+  min-height: calc(100vh-100px);
   background-image: url("/images/footer/bg.png");
   background-size: cover;
   background-position: center;
@@ -8,19 +8,19 @@
 }
 
 .item {
-  flex: 1;
-  position: relative;
+  flex: 2;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .item:last-child {
-  flex: 2;
-  padding: 50px;
+  flex: 1;
+  padding: 10px;
+  opacity: 80%;
+  position: relative;
   justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
+}
+.imgContainer img {
+  border-radius: 50%;
 }
 
 .card {
